@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ec79dd;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #ec79dd;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    background-color:  #ec79dd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #7c3172;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o ícone de edição */
+.edit-icon {
+    cursor: pointer;
+    color:  #ec79dd;
+}
+.edit-cell {
+    padding: 5px; /* Ajuste o espaçamento conforme necessário */
+}
